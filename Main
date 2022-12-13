@@ -1,0 +1,37 @@
+if game.PlaceId == 2788229376 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("speedybari", "Midnight")
+
+    -- MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+    MainSection:NewButton("Rayx", "injects rayx gui", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+    end)
+    MainSection:NewButton("Swagmode", "ButtonInfo", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+    end)
+    MainSection:NewButton("Faded", "ButtonInfo", function()
+        _G.Toggles = "V"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+    end) 
+    MainSection:NewButton("Nukermode", "ButtonInfo", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/nukermode/main/loader-obfuscated%20(2).lua"))()
+    end)
+    MainSection:NewButton("Raycodex", "ButtonInfo", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PickleIsDaBest/RayCodex/main/Script"))()
+    end)
+    MainSection:NewButton("Da Guix", "ButtonInfo", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/ZCiS8jSd'))()
+    end)
+    MainSection:NewButton("Artic Gui", "ButtonInfo", function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/PolarWasHere/Arctic/main/Arctic"))()
+    end)
+    MainSection:NewButton("Mimic", "E TO GO INVIS", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ZSIOffical/I-D-K/main/mimic.lua"))()
+    end)
+    MainSection:NewButton("DaHubV3", "ButtonInfo", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NoUGotbannedlol/DaHubV3/main/Launch"))()
+    end)
+end
